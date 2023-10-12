@@ -41,7 +41,7 @@ namespace SuperHeroAPI.Controllers
             }
 
             dbHero.Name = hero.Name;
-            dbHero.FirstName = hero.FirstName;
+            dbHero.FirstName = hero.FirstName; 
             dbHero.LastName = hero.LastName;
             dbHero.Place = hero.Place;
 
